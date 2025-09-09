@@ -38,4 +38,4 @@ def modificar(user_id):
     descripcion=data.get("descripcion")
 
 
-    return jsonify({"saludo": descripcion})    
+    return jsonify({"saludo": descripcion})
